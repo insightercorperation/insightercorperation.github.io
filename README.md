@@ -2,7 +2,7 @@
 
 > 카카오 기술블로그를 기반으로 제작하였습니다.
 
-> 주의: [GitHub Pages](https://pages.github.com/)와 [Jekyll](https://jekyllrb.com/)에 대해서 충분히 숙지할 것.
+> 주의: [GitHub Pages](https://pages.github.com/)와 [Jekyll](https://jekyllrb.com/)에 대해서 충분히 숙지할 것.  
 > 주의: [Collaborating on projects using issues and pull requests](https://help.github.com/categories/collaborating-on-projects-using-issues-and-pull-requests/)을 정독.
 
 

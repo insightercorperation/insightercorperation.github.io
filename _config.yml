@@ -1,0 +1,54 @@
+title: Insighter 기술 블로그
+email: insighter@insighter.co.kr
+description: |
+  Description
+baseurl: ''
+url: 'http://insightercorperation.github.io'
+timezone: Asia/Seoul 
+
+repository: insightercorperation/insightercorperation.github.io
+
+permalink: /:year/:month/:day/:title/
+
+excerpt_separator: <!--more-->
+
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num/'
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+github: [metadata]
+
+author: insighter@insighter.co.kr
+image: '/assets/images/default_blog_cover.png'
+asset_url: /assets

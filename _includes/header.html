@@ -1,0 +1,14 @@
+<div id="navbar" class="container" style="padding-top: 0px; padding-bottom: 0px;">
+    <div id="header">
+        <button id="menu-toggle" type="button">
+            <span class="sr-only">Toggle Navigation Menu</span>
+        </button>
+        <a id="logo" class="pull-left" href="/">
+            <span class="sr-only">Insighter</span>
+        </a>
+        <ul id="menu" class="nav pull-right">
+            <li class="{% if page.url == '/intro/' %} active {% endif %}"><a href="{{ base_path }}/intro/">소개</a></li>
+            <li class="{% if page.url != '/intro/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
+        </ul>
+    </div>
+</div>

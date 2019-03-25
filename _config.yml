@@ -3,7 +3,7 @@ email: insighter@insighter.co.kr
 description: |
   Description
 baseurl: ''
-url: 'http://insightercorperation.github.io'
+url: ''
 timezone: Asia/Seoul 
 
 repository: insightercorperation/insightercorperation.github.io

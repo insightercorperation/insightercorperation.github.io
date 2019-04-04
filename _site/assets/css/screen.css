@@ -195,12 +195,12 @@ for small screen(<720px):
     position: absolute;
     top: 0;
     left: 30px;
-    width: 123px;
+    width: 150px;
     height: 60px;
     margin: 0 0;
     padding: 0;
     background: url(../images/pc/logo.png) no-repeat center;
-    background-size: 123px 21px;
+    background-size: 150px 39px;
 }
 
 #menu {
@@ -646,11 +646,11 @@ a.tag:hover {
 #pagination > li {
     list-style: none;
     display: inline-block;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     color: #1e1e1e;
     font-size: 14px;
-    line-height: 18px; /* 18px = 20(height) - 2(border) */
+    line-height: 30px;
     vertical-align: middle;
 }
 
@@ -1195,7 +1195,7 @@ body.page-template {
         height: 50px;
         margin: 0 auto;
         background-image: url(../images/mo/logo.png);
-        background-size: 99px 17px;
+        background-size: 150px 39px;
     }
 
     #menu {

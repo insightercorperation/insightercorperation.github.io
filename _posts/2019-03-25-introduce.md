@@ -1,16 +1,20 @@
 ---
 layout: post
-title: '기술블로그 포스팅 테스트'
-description: '기술블로그 작성 방법 등을 포스팅 합니다.'
+title: '개발 블로그 포스팅 방법'
+description: '개발 블로그 작성 방법을 포스팅 합니다.'
 author: ari
 date: 2019-03-25 00:00
-tags: [test]
+tags: [guide]
 image: /files/covers/introduce.jpg
 ---
 
-[![insighter_image_test](/assets/images/pc/logo.png){:height="100%"}](/assets/images/pc/logo.png)
+[![insighter_image_test](/assets/images/pc/logo.png){:width="50%"}](/assets/images/pc/logo.png)
 > 안녕하세요. 인사이터 기술 블로그 입니다.
 > 본 포스트는 포스팅 테스트와 더불어 작성자 등록 및 포스트 방법에 대해 안내해 드리겠습니다. :)
+
+* 작성자
+    - v1.0.0: [ari](/authors/ari/) (2019-03-25)
+    - v1.1.0: [alex](/authors/ari/) (2019-04-04)
 
 ## 1. 작성자 등록 방법
 작성자 등록은 `/_authors/` 폴더에서 `name.md` 파일을 만든 후
